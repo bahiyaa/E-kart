@@ -51,6 +51,7 @@ function Wishlist() {
         :
       <div style={{height:'100vh'}} className='d-flex justify-content-center align-items-center flex-column'>
         <img src="https://aleointernational.com/img/empty-cart-yellow.png" height='300px' alt="" />
+        <h3 className='text-danger fw-bolder'>Your wishlist is Empty</h3>
        
       </div>
       }
