@@ -17,7 +17,7 @@ function Header() {
     
   return (
    <>
-    <Navbar expand="lg" className="bg-primary">
+    <Navbar expand="lg" className="bg-primary" style={{position:'sticky'}} fixed="top">
       <Container>
       <i style={{color:'white'}} class="fa-solid fa-cart-shopping fa-bounce me-3"></i>
         <Navbar.Brand style={{color:"#fff"}}>
